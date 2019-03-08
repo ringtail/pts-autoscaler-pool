@@ -1,0 +1,1 @@
+# pts-autoscaler-pool
