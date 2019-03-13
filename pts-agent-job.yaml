@@ -1,0 +1,22 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: pts-agent
+spec:
+  parallelism: 10
+  template:
+    spec:
+      containers:
+      - name: pts-agent
+        image: registry.cn-beijing.aliyuncs.com/ringtail/pts-agent:0.4
+        env:
+        - name: ENDPOINT
+          value: http://pts-server.default.svc.cluster.local/ping
+        command: ["/usr/bin/curl"]
+        args: ["$(ENDPOINT)"]
+        resources:
+          requests:
+            cpu: "3.8"
+      restartPolicy: Never
+      priorityClassName: high-priority
+  backoffLimit: 4

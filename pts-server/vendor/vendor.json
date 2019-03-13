@@ -1,0 +1,82 @@
+{
+	"comment": "",
+	"ignore": "test",
+	"package": [
+		{
+			"checksumSHA1": "MkP+YUWj9IWJAIx4xMuqjsRaut4=",
+			"path": "github.com/astaxie/beego",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "JvDySyr+rfWQ9sp+ciwxxWywea0=",
+			"path": "github.com/astaxie/beego/config",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "RxjyYqHZGr4NrlXRKQejteNlxk0=",
+			"path": "github.com/astaxie/beego/context",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "iHY0XMPlj5EfCxMN4NEmvBgdhDM=",
+			"path": "github.com/astaxie/beego/context/param",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "N5kHk4qbc10N2Lp9ltA2G76qNxs=",
+			"path": "github.com/astaxie/beego/grace",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "OksAzF6VvpfTlte99lpVNV+iSnY=",
+			"path": "github.com/astaxie/beego/logs",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "EDaMYv6yHO6Xu9J8loeGIUOvGoE=",
+			"path": "github.com/astaxie/beego/session",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "+PlOZO0+eBgxmhWTz5qn6CH5UHk=",
+			"path": "github.com/astaxie/beego/toolbox",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "W7HBzu7HlF18vCfNPgax7xvHXB0=",
+			"path": "github.com/astaxie/beego/utils",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "J6lNRPdrYhKft6S8x33K9brxyhE=",
+			"origin": "github.com/astaxie/beego/vendor/golang.org/x/crypto/acme",
+			"path": "golang.org/x/crypto/acme",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "EFjIi/zCZ1Cte0MQtyxGCTgSzk8=",
+			"origin": "github.com/astaxie/beego/vendor/golang.org/x/crypto/acme/autocert",
+			"path": "golang.org/x/crypto/acme/autocert",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		},
+		{
+			"checksumSHA1": "ZSWoOPUNRr5+3dhkLK3C4cZAQPk=",
+			"origin": "github.com/astaxie/beego/vendor/gopkg.in/yaml.v2",
+			"path": "gopkg.in/yaml.v2",
+			"revision": "f64e6b72e93627fa65f5f7a1b0db8ad2108a5449",
+			"revisionTime": "2018-10-28T12:01:23Z"
+		}
+	],
+	"rootPath": "github.com/ringtail/pts-autoscaler-pool/pts-server"
+}

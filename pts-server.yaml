@@ -1,0 +1,21 @@
+apiVersion: apps/v1beta2
+kind: Deployment
+metadata:
+  name: pts-server
+  labels:
+    app: pts-server
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pts-server
+  template:
+    metadata:
+      labels:
+        app: pts-server
+    spec:
+      containers:
+      - name: pts-server
+        image: registry.cn-beijing.aliyuncs.com/ringtail/pts-server:0.6
+        ports:
+        - containerPort: 8080
